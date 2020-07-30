@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e39d29-4d36-4eed-976c-5d055014c010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Test674.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Test26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Test674.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Test674.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +49,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test674">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Test1051" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.Test1051" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Test26" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +89,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.test" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Test26" />
         <item itemvalue="Application.Test674" />
         <item itemvalue="Application.Test1051" />
       </list>
@@ -94,7 +123,12 @@
       <updated>1595217755331</updated>
       <workItem from="1595217758168" duration="2053000" />
       <workItem from="1595220516973" duration="1187000" />
-      <workItem from="1595248724312" duration="3865000" />
+      <workItem from="1595248724312" duration="5871000" />
+      <workItem from="1595298141506" duration="47000" />
+      <workItem from="1595310463092" duration="13000" />
+      <workItem from="1595426914766" duration="427000" />
+      <workItem from="1595467846124" duration="34000" />
+      <workItem from="1595915556412" duration="1110000" />
     </task>
     <servers />
   </component>
@@ -106,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

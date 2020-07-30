@@ -2,7 +2,7 @@ package Array;
 
 /**
  * @description: 674 最长连续递增序列[动态规划]
- * @param: 给定一个未经排序的整数数组，找到最长且连续的的递增序列
+ * @param: 给定一个未经排序的整数数组，找到  最长且连续的的递增序列
  * @return: 并返回该序列的长度。
  * @author: Silince
  * @date: 2020-07-20
@@ -13,6 +13,7 @@ public class Test674 {
         // ans 当前子序列长度
         int ans = 0, anchor = 0;
         for (int i = 0; i < nums.length; i++) {
+            // i=0时候，i>0为false就不会继续操作&&后的代码了
             if (i > 0 && nums[i-1] >= nums[i]) anchor = i;
             ans = Math.max(ans, i - anchor + 1);
         }
