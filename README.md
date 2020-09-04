@@ -41,7 +41,7 @@
 
 ## 排序算法
 
-![image-20200720125956366](/assets/imgs/image-20200720125956366.png)
+![image-20200720125956366](../../tree/master/assets/imgs/image-20200720125956366.png)
 
 [十大排序算法](https://mp.weixin.qq.com/s/Qf416rfT4pwURpW3aDHuCg)
 
@@ -301,7 +301,7 @@ class Solution {
 
 方法二说明：
 
-![image-20200831201456212](/assets/imgs/image-20200831201456212.png)
+![image-20200831201456212](../../tree/master/assets/imgs/image-20200831201456212.png)
 
 代码：
 
