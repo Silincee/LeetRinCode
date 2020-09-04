@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e39d29-4d36-4eed-976c-5d055014c010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Test26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Test674.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Test674.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Test1051.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Test26.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Test674.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/test.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +26,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ew1HpT3EnRZE8zN3c1Vd1OWLqa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -129,6 +136,12 @@
       <workItem from="1595426914766" duration="427000" />
       <workItem from="1595467846124" duration="34000" />
       <workItem from="1595915556412" duration="1110000" />
+      <workItem from="1598613062923" duration="1944000" />
+      <workItem from="1599184883268" duration="46000" />
+      <workItem from="1599184931890" duration="821000" />
+      <workItem from="1599185810477" duration="450000" />
+      <workItem from="1599186476392" duration="25000" />
+      <workItem from="1599186504096" duration="203000" />
     </task>
     <servers />
   </component>
@@ -148,15 +161,7 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/Test674.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
