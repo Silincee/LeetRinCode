@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e39d29-4d36-4eed-976c-5d055014c010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P169_MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Test1051.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Test26.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Test674.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Array/Test1051.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Array/Test26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Array/Test674.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Array/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +60,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="Test1051" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Test1051" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="P169_MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P169_MajorityElement" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.doc.Test" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.doc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,10 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.P169_MajorityElement" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Test26" />
         <item itemvalue="Application.Test674" />
-        <item itemvalue="Application.Test1051" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +160,7 @@
       <workItem from="1599185810477" duration="450000" />
       <workItem from="1599186476392" duration="25000" />
       <workItem from="1599186504096" duration="203000" />
+      <workItem from="1599485524314" duration="6947000" />
     </task>
     <servers />
   </component>
