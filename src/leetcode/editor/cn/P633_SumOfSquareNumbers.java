@@ -28,12 +28,26 @@ public class P633_SumOfSquareNumbers{
 	 public static void main(String[] args) {
 	 	 //测试代码
 	 	 Solution solution = new P633_SumOfSquareNumbers().new Solution();
+		 System.out.println(solution.judgeSquareSum(5));
 	 }
 //力扣代码
 	//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean judgeSquareSum(int c) {
-		return false;
+    	// 负数 return false
+		if (c<0) return false;
+		// 定义两个指针a,b 0 和 sqrt(c) 逼近
+		int a = 0;
+		int b = (int) Math.sqrt(c);
+		// 逼近 直到a=b
+		while(a<=b) {
+			// aa+bb<c  a++
+			long sum = a*a+b*b;
+			if (sum==c) return true;
+			// aa+bb>c b--
+			else if (sum<c){a++;}else {b--;}
+		}
+    	return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
