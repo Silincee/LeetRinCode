@@ -34,34 +34,40 @@ public class P345_ReverseVowelsOfAString {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P345_ReverseVowelsOfAString().new Solution();
-        solution.reverseVowels("ccAccEcUccOc");
+        solution.reverseVowels("afo");
     }
 
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String reverseVowels(String s) {
-            String str = "aeuioAEUIO";
+            String str = "aeuioAEUIO"; // 元音列表
             // cc a cc e c u cc o c  -->  cc o cc u c e cc a c
             int i = 0;
             int j = s.length() - 1;
-
             char[] chars = s.toCharArray();
 
-            while (i < j) {
-                if (str.indexOf(chars[i]) != -1) { // 判断元音 String s = "aeiouAEIOU"; s.indexOf(ch)!=-1
-                    if (str.indexOf(chars[j]) != -1) {
-                        char temp = chars[i];
-                        chars[i] = chars[j];
-                        chars[j] = temp;
-						i++;
-						j--;
-                    }else {
-						j--; //j 不是元音 ++
-					}
-                } else {i++;} // i 不是元音 ++
+            while (i<j){
+                if (str.indexOf(chars[i])!=-1){
+                    if (str.indexOf(chars[j])!=-1){
+                        char temp= chars[i];
+                        chars[i]=chars[j];
+                        chars[j]=temp;
+
+                        i++;
+                        j--;
+
+                    }else {j--;}
+
+                }
+                else {i++;}
             }
+
+
+
             return new String(chars);
+
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

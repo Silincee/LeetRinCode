@@ -1,5 +1,9 @@
 package leetcode.editor.cn.doc;
 
+import leetcode.editor.cn.utils.TreeFactory;
+import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.utils.TreeUtils;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.stream.Stream;
@@ -12,10 +16,14 @@ import java.util.stream.Stream;
  **/
 public class Test {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; ++i) {
+//        TreeFactory treeFactory = new TreeFactory();
+//        TreeUtils.preTraverse(treeFactory.creatTree());
+
+        int i = 0;
+        while(i++<10){
             System.out.println(i);
         }
+        System.out.println("finished");
     }
-
 
 }

@@ -22,31 +22,33 @@ package leetcode.editor.cn;
 
 //两数之和 II - 输入有序数组
 
-public class P167_TwoSumIiInputArrayIsSorted{
-	 public static void main(String[] args) {
-	 	 //测试代码
-	 	 Solution solution = new P167_TwoSumIiInputArrayIsSorted().new Solution();
-	 }
-//力扣代码
-	//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-	public int[] twoSum(int[] numbers, int target) {
-		for (int i = 0; i < numbers.length; i++) {
-			int low = i + 1, high = numbers.length - 1;
-			while (low <= high) {
-				int mid = (high - low) / 2 + low;
-				if (numbers[mid] == target - numbers[i]) {
-					return new int[]{i + 1, mid + 1};
-				} else if (numbers[mid] > target - numbers[i]) {
-					high = mid - 1;
-				} else {
-					low = mid + 1;
+public class P167_TwoSumIiInputArrayIsSorted {
+    public static void main(String[] args) {
+        //测试代码
+        Solution solution = new P167_TwoSumIiInputArrayIsSorted().new Solution();
+    }
+
+    //力扣代码
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] twoSum(int[] numbers, int target) {
+            // 双指针
+			int i = 0;
+			int j = numbers.length-1;
+
+			while(i<j){
+				if (numbers[i]+numbers[j]==target){
+					return new int[]{i+1,j+1};
+				}else if (numbers[i]+numbers[j]<target){
+					i++;
+				}else {
+					j--;
 				}
 			}
-		}
-		return new int[]{-1, -1};
-	}
-}
+			return new int[]{-1,-1};
+        }
+
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

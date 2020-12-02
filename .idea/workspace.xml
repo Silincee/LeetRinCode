@@ -2,23 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e39d29-4d36-4eed-976c-5d055014c010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P11_ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P141_LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P345_ReverseVowelsOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P680_ValidPalindromeIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P169_MajorityElement$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P169_MajorityElement$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P169_MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P169_MajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P633_SumOfSquareNumbers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P633_SumOfSquareNumbers$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P633_SumOfSquareNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P633_SumOfSquareNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BinaryTree/CreateBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P104_MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P106_ConstructBinaryTreeFromInorderAndPostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P110_BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P111_MinimumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P114_FlattenBinaryTreeToLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P116_PopulatingNextRightPointersInEachNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P215_KthLargestElementInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P226_InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P322_CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P347_TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P34_FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P46_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P509_FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P51_NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P524_LongestWordInDictionaryThroughDeleting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P543_DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P652_FindDuplicateSubtrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P654_MaximumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P704_BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P752_OpenTheLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/TreeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/TreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P167_TwoSumIiInputArrayIsSorted$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/P167_TwoSumIiInputArrayIsSorted$Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P167_TwoSumIiInputArrayIsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P167_TwoSumIiInputArrayIsSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P169_MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P169_MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P633_SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P633_SumOfSquareNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P345_ReverseVowelsOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P345_ReverseVowelsOfAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
@@ -28,6 +43,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,8 +85,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.editor.cn.utils" />
       <recent name="Array" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,9 +107,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="P169_MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P169_MajorityElement" />
+  <component name="RunManager" selected="Application.P34_FindFirstAndLastPositionOfElementInSortedArray">
+    <configuration name="P322_CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P322_CoinChange" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P345_ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P345_ReverseVowelsOfAString" />
+    <configuration name="P34_FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P34_FindFirstAndLastPositionOfElementInSortedArray" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P633_SumOfSquareNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P633_SumOfSquareNumbers" />
+    <configuration name="P509_FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P509_FibonacciNumber" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.doc.Test" />
+    <configuration name="P51_NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P51_NQueens" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.doc.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.test" />
+    <configuration name="P704_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P704_BinarySearch" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.P345_ReverseVowelsOfAString" />
-        <item itemvalue="Application.P633_SumOfSquareNumbers" />
-        <item itemvalue="Application.P169_MajorityElement" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.P34_FindFirstAndLastPositionOfElementInSortedArray" />
+        <item itemvalue="Application.P704_BinarySearch" />
+        <item itemvalue="Application.P51_NQueens" />
+        <item itemvalue="Application.P322_CoinChange" />
+        <item itemvalue="Application.P509_FibonacciNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +222,44 @@
       <workItem from="1600000361077" duration="1581000" />
       <workItem from="1600051128048" duration="93000" />
       <workItem from="1600140590672" duration="2335000" />
+      <workItem from="1600229871577" duration="5775000" />
+      <workItem from="1600309163829" duration="7354000" />
+      <workItem from="1600321908858" duration="394000" />
+      <workItem from="1600836746633" duration="8021000" />
+      <workItem from="1600996219691" duration="2592000" />
+      <workItem from="1601953967306" duration="14015000" />
+      <workItem from="1602550696514" duration="6866000" />
+      <workItem from="1602588594610" duration="5028000" />
+      <workItem from="1602638266139" duration="7550000" />
+      <workItem from="1602647046662" duration="1391000" />
+      <workItem from="1602742582729" duration="3604000" />
+      <workItem from="1603027115584" duration="266000" />
+      <workItem from="1603027735482" duration="5413000" />
+      <workItem from="1603159066361" duration="7951000" />
+      <workItem from="1603243802700" duration="6854000" />
+      <workItem from="1603271359848" duration="1273000" />
+      <workItem from="1603329510217" duration="2520000" />
+      <workItem from="1603332511453" duration="957000" />
+      <workItem from="1603333543856" duration="53000" />
+      <workItem from="1603339296541" duration="4540000" />
+      <workItem from="1603347950296" duration="3030000" />
+      <workItem from="1603772833914" duration="9311000" />
+      <workItem from="1603803248083" duration="23000" />
+      <workItem from="1604037388874" duration="2174000" />
+      <workItem from="1604143948716" duration="3146000" />
+      <workItem from="1604216224165" duration="7201000" />
+      <workItem from="1604283517979" duration="584000" />
+      <workItem from="1604452349041" duration="1439000" />
+      <workItem from="1605162130287" duration="655000" />
+      <workItem from="1605529325599" duration="6295000" />
+      <workItem from="1605612526096" duration="9310000" />
+      <workItem from="1605667302975" duration="563000" />
+      <workItem from="1605697373135" duration="1331000" />
+      <workItem from="1605767065426" duration="194000" />
+      <workItem from="1605768486454" duration="3201000" />
+      <workItem from="1606278927885" duration="5508000" />
+      <workItem from="1606357022954" duration="3408000" />
+      <workItem from="1606440186106" duration="1951000" />
     </task>
     <servers />
   </component>
