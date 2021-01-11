@@ -73,21 +73,29 @@ public class P322_CoinChange {
 
         // 伪代码框架
         public int coinChange(int[] coins, int amount) {
-			// dp 数组写法
-			int[] dp = new int[amount + 1];
-			for (int i = 0; i <dp.length; i++) {
+
+        	// 定义dp数组
+			int[] dp  = new int[amount+1];
+			// 初始化为最大值
+			for (int i = 0; i <= amount ; i++) {
 				dp[i] = amount+1;
 			}
 
-			// base case
-			dp[0] = 0;
+			// 明确base case
+			dp[0]=0;
+
+			// 明确状态转移/选择
+			// 遍历更新所有状态
 			for (int i = 0; i < dp.length; i++) {
+				// 取三种情况的最小值
 				for (int coin : coins) {
+					// 小于0 无解情况
 					if (i-coin<0) continue;
-					dp[i]=Math.min(dp[i],1+dp[i-coin]);
+					dp[i] = Math.min(dp[i],1+dp[i-coin]);
 				}
 
 			}
+
 			return (dp[amount]==amount+1)?-1:dp[amount];
 
         }

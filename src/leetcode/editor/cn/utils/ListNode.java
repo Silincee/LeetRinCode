@@ -6,13 +6,9 @@ package leetcode.editor.cn.utils;
  * @author: Silince
  * @create: 2020-09-13 09:38
  **/
-public class ListNode {
-    int val;
+  public class ListNode {
+     public   int val;
     public ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
+      public ListNode(int x) { val = x; }
+  }
 
