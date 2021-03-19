@@ -2,72 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e39d29-4d36-4eed-976c-5d055014c010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BaoHanMinhanShuDeZhanLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BuKePaiZhongDeShunZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CongShangDaoXiaDaYinErChaShuIiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CongWeiDaoTouDaYinLianBiaoLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/DaYinCong1daoZuiDaDeNweiShuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/DiYiGeZhiChuXianYiCiDeZiFuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/DiaoZhengShuZuShunXuShiQiShuWeiYuOuShuQianMianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/DuiChengDeErChaShuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaShuDeJingXiangLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaShuDeShenDuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaShuDeZuiJinGongGongZuXianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaSouSuoShuDeDiKdaJieDianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaSouSuoShuDeZuiJinGongGongZuXianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErJinZhiZhong1deGeShuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErWeiShuZuZhongDeChaZhaoLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FanZhuanDanCiShunXuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FanZhuanLianBiaoLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FeiBoNaQiShuLieLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HeBingLiangGePaiXuDeLianBiaoLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HeWeiSdeLianXuZhengShuXuLieLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HeWeiSdeLiangGeShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HuaDongChuangKouDeZuiDaZhiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/JiQiRenDeYunDongFanWeiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/JuZhenZhongDeLuJingLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LianBiaoZhongDaoShuDiKgeJieDianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LianXuZiShuZuDeZuiDaHeLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LiangGeLianBiaoDeDiYiGeGongGongJieDianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P1143_LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P300_LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P306_AdditiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P354_RussianDollEnvelopes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P3_LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P438_FindAllAnagramsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P494_TargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P53_MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P567_PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P583_DeleteOperationForTwoStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P712_MinimumAsciiDeleteSumForTwoStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P72_EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P76_MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PingHengErChaShuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/QingWaTiaoTaiJieWenTiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/QueShiDeShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShanChuLianBiaoDeJieDianLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/TiHuanKongGeLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/XuanZhuanShuZuDeZuiXiaoShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/YuanQuanZhongZuiHouShengXiaDeShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZhongJianErChaShuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuiXiaoDeKgeShuLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BaShuZiFanYiChengZiFuChuanLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BaShuZuPaiChengZuiXiaoDeShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BaZiFuChuanZhuanHuanChengZhengShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BiaoShiShuZhiDeZiFuChuanLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/BuYongJiaJianChengChuZuoJiaFaLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ChouShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CongShangDaoXiaDaYinErChaShuIiiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/CongShangDaoXiaDaYinErChaShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/DuiLieDeZuiDaZhiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaShuZhongHeWeiMouYiZhiDeLuJingLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaSouSuoShuDeHouXuBianLiXuLieLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ErChaSouSuoShuYuShuangXiangLianBiaoLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FuZaLianBiaoDeFuZhiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/GouJianChengJiShuZuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/GuPiaoDeZuiDaLiRunLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/JianShengZiIiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/JianShengZiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LiWuDeZuiDaJieZhiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/NgeTouZiDeDianShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/OneNzhengShuZhong1chuXianDeCiShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P146_LruCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P7_ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/Qiu12nLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuDeZiJieGouLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuJuLiuZhongDeZhongWeiShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZhiDeZhengShuCiFangLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZiXuLieZhongMouYiWeiDeShuZiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongDeNiXuDuiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongShuZiChuXianDeCiShuIiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongShuZiChuXianDeCiShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/XuLieHuaErChaShuLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZhanDeYaRuDanChuXuLieLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZhengZeBiaoDaShiPiPeiLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZiFuChuanDePaiLieLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/MyLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/MyLockByLockSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/SyncAndReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/TestPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/TestPrint2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/BinaryTreeMinDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/all.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/doc/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leetcode/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P322_CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P322_CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P509_FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P509_FibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/JiQiRenDeYunDongFanWeiLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/JiQiRenDeYunDongFanWeiLcof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/utils/Node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +98,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -139,13 +125,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="HuaDongChuangKouDeZuiDaZhiLcof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.HuaDongChuangKouDeZuiDaZhiLcof" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="BinaryTreeMinDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.utils.BinaryTreeMinDepth" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof" />
+    <configuration name="SyncAndReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.doc.SyncAndReentrantLockDemo" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.doc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.doc.Test2" />
+    <configuration name="TestPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.doc.TestPrint" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -192,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZaiPaiXuShuZuZhongChaZhaoShuZiLcof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ZaiPaiXuShuZuZhongChaZhaoShuZiLcof" />
+    <configuration name="TestPrint2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.doc.TestPrint2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.doc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.HuaDongChuangKouDeZuiDaZhiLcof" />
-        <item itemvalue="Application.ZaiPaiXuShuZuZhongChaZhaoShuZiLcof" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof" />
+        <item itemvalue="Application.BinaryTreeMinDepth" />
+        <item itemvalue="Application.TestPrint2" />
+        <item itemvalue="Application.TestPrint" />
+        <item itemvalue="Application.SyncAndReentrantLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +302,34 @@
       <workItem from="1609307039032" duration="12271000" />
       <workItem from="1609769763040" duration="4921000" />
       <workItem from="1610005612784" duration="1285000" />
+      <workItem from="1610540758378" duration="662000" />
+      <workItem from="1610546458940" duration="50000" />
+      <workItem from="1610698776051" duration="13123000" />
+      <workItem from="1610770271196" duration="12025000" />
+      <workItem from="1610933507788" duration="13643000" />
+      <workItem from="1611144116443" duration="5880000" />
+      <workItem from="1611200645451" duration="2854000" />
+      <workItem from="1611225434221" duration="1498000" />
+      <workItem from="1611482724574" duration="10295000" />
+      <workItem from="1611669785864" duration="432000" />
+      <workItem from="1611751926498" duration="3265000" />
+      <workItem from="1611760375503" duration="1728000" />
+      <workItem from="1611824898310" duration="9598000" />
+      <workItem from="1612067453308" duration="374000" />
+      <workItem from="1612278436622" duration="74000" />
+      <workItem from="1612326660988" duration="66000" />
+      <workItem from="1613646974578" duration="39000" />
+      <workItem from="1614922597990" duration="209000" />
+      <workItem from="1615117578685" duration="3126000" />
+      <workItem from="1615600387261" duration="4481000" />
+      <workItem from="1615613599146" duration="551000" />
+      <workItem from="1615617006690" duration="2250000" />
+      <workItem from="1615622138710" duration="6049000" />
+      <workItem from="1615713718893" duration="407000" />
+      <workItem from="1615869611579" duration="1903000" />
+      <workItem from="1616035444095" duration="930000" />
+      <workItem from="1616072891837" duration="148000" />
+      <workItem from="1616080036270" duration="1359000" />
     </task>
     <servers />
   </component>
@@ -355,6 +369,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.java</url>
           <line>58</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/doc/Test2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

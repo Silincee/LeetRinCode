@@ -28,33 +28,38 @@ package leetcode.editor.cn;
 
 //机器人的运动范围
 
-public class JiQiRenDeYunDongFanWeiLcof{
-	 public static void main(String[] args) {
-	 	 //测试代码
-	 	 Solution solution = new JiQiRenDeYunDongFanWeiLcof().new Solution();
-	 }
-//力扣代码
-	//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+import java.util.LinkedList;
 
-	int m,n,k;
-	boolean[][] visited;
+public class JiQiRenDeYunDongFanWeiLcof {
+    public static void main(String[] args) {
+        //测试代码
+        Solution solution = new JiQiRenDeYunDongFanWeiLcof().new Solution();
+		System.out.println(solution.movingCount(3, 4, 2));
+	}
 
-    public int movingCount(int m, int n, int k) {
-		this.m=m;
-		this.n=n;
-		this.k=k;
-		this.visited=new boolean[m][n];
-		return dfs(0,0,0,0);
+    //力扣代码 https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/solution/mian-shi-ti-13-ji-qi-ren-de-yun-dong-fan-wei-dfs-b/
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+
+        public int movingCount(int m, int n, int k) {
+			boolean[][] visited = new boolean[m][n];
+			int res = 0;
+
+			LinkedList<int[]> queue = new LinkedList<>();
+			queue.offer(new int[]{0,0,0,0});
+			while (queue.size()>0){
+				int[] x  =queue.poll();
+				int i = x[0],j=x[1],si=x[2],sj=x[3];
+				if(i >= m || j >= n || k < si + sj || visited[i][j]) continue;
+				visited[i][j] = true;
+				res++;
+				queue.offer(new int[] { i + 1, j, (i + 1) % 10 != 0 ? si + 1 : si - 8, sj });
+				queue.offer(new int[] { i, j + 1, si, (j + 1) % 10 != 0 ? sj + 1 : sj - 8 });
+		}
+			return res;
+		}
+
     }
-
-	private int dfs(int i, int j, int si, int sj) {
-    	if (i>=m||j>=n||k<si+sj||visited[i][j]) return 0;
-    	visited[i][j] = true;
-    	return 1+dfs(i+1,j,(i+1)%10!=0?si+1:si-8,sj)+dfs(i, j + 1, si, (j + 1) % 10 != 0 ? sj + 1 : sj - 8);
-	}
-	}
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
