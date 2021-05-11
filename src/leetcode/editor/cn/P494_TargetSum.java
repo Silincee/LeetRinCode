@@ -41,6 +41,7 @@ public class P494_TargetSum {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P494_TargetSum().new Solution();
+        System.out.println(solution.findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
     }
 
     //力扣代码
@@ -49,24 +50,35 @@ public class P494_TargetSum {
         public int result = 0; // 方法数
 
         public int findTargetSumWays(int[] nums, int S) {
-
-            backtrack(nums, 0, S);
+            backtrack(nums, S, 0);
             return result;
         }
 
-        // i-nums[i]-记录当前路径到哪了  rest-目标值
-        public void backtrack(int[] nums, int i, int rest) {
-			if (i == nums.length) {
-				if (rest == 0) {
-					// 说明恰好凑出 target
-					result++;
-				}
-				return;
-			}
+        /**
+         * @description: target 目标值，为0则方法数+1； index当前处于的数组位置，用于充当可选列表
+         */
+        private void backtrack(int[] nums, int target, int index) {
 
-			backtrack(nums,i+1,rest-nums[i]);
-			backtrack(nums,i+1,rest+nums[i]);
+            if (index == nums.length) {
+                if (target == 0) {
+                    result++;
+                }
+                return;
+            }
+
+
+                target = target - nums[index];
+                backtrack(nums, target, index+1);
+                target = target + nums[index];
+
+                target = target + nums[index];
+                backtrack(nums, target, index+1);
+                target = target - nums[index];
+
+
         }
+
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 

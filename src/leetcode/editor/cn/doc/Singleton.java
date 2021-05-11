@@ -8,11 +8,17 @@ package leetcode.editor.cn.doc;
  **/
 public class Singleton {
 
-    private static final Singleton instance = new Singleton();
+    private static volatile Singleton instance;
 
-    private Singleton(){}
+    private Singleton() {
 
-    public static Singleton getSingleton() {
-        return instance;
     }
+
+   private static class SingletonInstance{
+        private static final Singleton INSTANCE = new Singleton();
+   }
+
+   public static Singleton getInstance(){
+        return SingletonInstance.INSTANCE;
+   }
 }

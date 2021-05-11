@@ -15,7 +15,7 @@ public class TestPrint {
     // 线程操作资源类   判断通知干活
     static class ShareResource {
 
-        private int number = 1;  // A 1   B 2   c 3
+
 
         private Semaphore semaphoreA = new Semaphore(1);
         private Semaphore semaphoreB = new Semaphore(0);
@@ -26,7 +26,6 @@ public class TestPrint {
             semaphoreA.acquire();
             System.out.println("A");
             semaphoreB.release();
-
         }
 
         public void printB() throws InterruptedException {

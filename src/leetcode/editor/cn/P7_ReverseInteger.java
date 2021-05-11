@@ -58,13 +58,22 @@ public class P7_ReverseInteger{
 	 }
 //力扣代码
 	//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+ class Solution {
     public int reverse(int x) {
-		final ArrayList<String> arrayList = new ArrayList<>();
-		for (String s : arrayList) {
-			
+		// int 的范围 -2147483648 - 2147483647 ， 所以判断7和-8
+		// x = 321
+		int ans = 0;
+		while (x!=0){
+			int pop = x%10;
+			x = x/10;
+			// 正树时候
+			if (ans>Integer.MAX_VALUE/10||(ans==Integer.MAX_VALUE/10&&pop>7)) return 0;
+			// -
+			if (ans<Integer.MIN_VALUE/10||(ans==Integer.MIN_VALUE/10&&pop<-8)) return 0;
+			ans = ans*10+pop;
 		}
-		return 1;
+
+		return ans;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

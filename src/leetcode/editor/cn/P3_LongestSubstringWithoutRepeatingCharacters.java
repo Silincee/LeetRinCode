@@ -61,34 +61,34 @@ public class P3_LongestSubstringWithoutRepeatingCharacters {
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public int lengthOfLongestSubstring(String s) {
+        public int lengthOfLongestSubstring(String s){
 
-            // window计数器
+            char[] array = s.toCharArray();
             HashMap<Character, Integer> window = new HashMap<>();
+            for (char c : array) {
+                window.put(c,0);
+            }
 
-            int left = 0;int right = 0;
-            int result = 0; // 记录结果
+            int left = 0;
+            int right = 0;
+            int res = 0;
 
-            char[] sArray = s.toCharArray();
-            while (right < s.length()) {
-            	// right扩大
-                Character c = sArray[right];
+            while (right<array.length){
+                char c = array[right];
+                window.put(c,window.get(c)+1);
                 right++;
-				// 进行窗口内数据的一系列更新
-                window.put(c, window.getOrDefault(c, 0) + 1);
 
-                // 何时收缩？ 当前字符计数值大于1时收缩
-                while (window.get(c) > 1) {
-                    Character d = sArray[left];
+                while (window.get(c)>1){
+                    char d = array[left];
                     left++;
-					// 进行窗口内数据的一系列更新
-                    window.put(d, window.get(d) - 1);
+                    window.put(d,window.get(d)-1);
                 }
 
-                // 收缩结束 已经没有重复字符(在这里更新答案)
-                result = Math.max(result, right - left);
+                res = Math.max(res,right-left);
+
             }
-            return result;
+            return res;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

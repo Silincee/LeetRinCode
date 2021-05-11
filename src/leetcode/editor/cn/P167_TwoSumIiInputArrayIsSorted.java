@@ -22,31 +22,43 @@ package leetcode.editor.cn;
 
 //两数之和 II - 输入有序数组
 
+import java.util.Arrays;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+
 public class P167_TwoSumIiInputArrayIsSorted {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P167_TwoSumIiInputArrayIsSorted().new Solution();
-    }
+		System.out.println(Arrays.toString(solution.twoSum(new int[]{2,7,11,15}, 9)));
+	}
 
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] numbers, int target) {
-            // 双指针
-			int i = 0;
-			int j = numbers.length-1;
 
-			while(i<j){
-				if (numbers[i]+numbers[j]==target){
-					return new int[]{i+1,j+1};
-				}else if (numbers[i]+numbers[j]<target){
-					i++;
-				}else {
-					j--;
+			for (int i = 0; i < numbers.length; i++) {
+				int left = i;
+				int right = numbers.length;
+
+				while (left+1!=right){
+					int m  = (right-left)/2+left;
+					if (numbers[m]<target-numbers[i]){
+						left = m;
+					}else {
+						right = m;
+					}
 				}
+
+				if (right==numbers.length||numbers[right]!=target-numbers[i]){
+					continue;
+				}
+				return new int[]{i+1,right+1};
 			}
-			return new int[]{-1,-1};
+				return new int[]{-1,-1};
         }
+
 
     }
 //leetcode submit region end(Prohibit modification and deletion)

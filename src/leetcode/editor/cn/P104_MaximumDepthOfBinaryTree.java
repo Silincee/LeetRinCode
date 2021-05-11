@@ -47,33 +47,8 @@ public class P104_MaximumDepthOfBinaryTree {
      */
     class Solution {
         public int maxDepth(TreeNode root) {
-            if (root==null ) return 0;
-            // 队列里存放的是「当前层的所有节点」
-            Queue<TreeNode> queue = new LinkedList<TreeNode>();
-            /**
-             * add是list的
-             * offer是queue的
-             * api里说：
-             * add：Inserts the specified element at the specified position in this list
-             * 将指定的元素插入到list中指定的的位置。
-             * offer：
-             * 如果在不违反容量限制的情况下，尽可能快的将指定的元素插入到queue中去
-             * */
-            queue.offer(root);
-            int ans = 0;
-            while (!queue.isEmpty()) {
-                // 每层节点的数量
-                int size = queue.size();
-                // 每次拓展下一层的时候，不同于广度优先搜索的每次只从队列里拿出一个节点，我们需要将队列里的所有节点都拿出来进行拓展
-                for (int i = 0; i < size; i++) {
-                    // poll() 检索并删除此列表的头部（第一个元素）。
-                    TreeNode node = queue.poll();
-                    if (node.left!=null) queue.offer(node.left);
-                    if (node.right!=null) queue.offer(node.right);
-                }
-                ans++;
-            }
-            return ans;
+            if (root==null) return 0;
+            return Math.max(maxDepth(root.left)+1,maxDepth(root.right)+1);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
