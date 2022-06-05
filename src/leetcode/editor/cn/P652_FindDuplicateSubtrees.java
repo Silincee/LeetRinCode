@@ -34,11 +34,9 @@ package leetcode.editor.cn;
 
 //寻找重复的子树
 
-import leetcode.editor.cn.utils.TreeFactory;
-import leetcode.editor.cn.utils.TreeNode;
-import leetcode.editor.cn.utils.TreeUtils;
+import leetcode.editor.cn.domain.TreeFactory;
+import leetcode.editor.cn.domain.TreeNode;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;

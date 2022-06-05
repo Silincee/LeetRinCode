@@ -58,9 +58,7 @@ package leetcode.editor.cn;
 
 //复杂链表的复制
 
-import leetcode.editor.cn.utils.Node;
-
-import java.util.HashMap;
+import leetcode.editor.cn.domain.Node;
 
 public class FuZaLianBiaoDeFuZhiLcof{
 	 public static void main(String[] args) {

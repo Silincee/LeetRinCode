@@ -37,7 +37,7 @@ package leetcode.editor.cn;
 
 //二叉搜索树与双向链表
 
-import leetcode.editor.cn.utils.Node;
+import leetcode.editor.cn.domain.Node;
 
 public class ErChaSouSuoShuYuShuangXiangLianBiaoLcof{
 	 public static void main(String[] args) {

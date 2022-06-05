@@ -47,35 +47,32 @@ public class P494_TargetSum {
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public int result = 0; // 方法数
 
-        public int findTargetSumWays(int[] nums, int S) {
-            backtrack(nums, S, 0);
-            return result;
+        public int findTargetSumWays(int[] nums, int target) {
+            int sum = 0;
+            for (int n : nums) {
+                sum += n;
+            }
+            // 这两种情况，不可能存在合法的子集划分
+            if (sum < target || (sum + target) % 2 == 1) {
+                return 0;
+            }
+            return subsets(nums, (sum + target) / 2);
         }
 
-        /**
-         * @description: target 目标值，为0则方法数+1； index当前处于的数组位置，用于充当可选列表
-         */
-        private void backtrack(int[] nums, int target, int index) {
+        int subsets(int[] nums, int sum) {
+            int n = nums.length;
+            int[] dp = new int[sum + 1];
+            // base case
+            dp[0] = 1;
 
-            if (index == nums.length) {
-                if (target == 0) {
-                    result++;
+
+            for (int i = 0; i < n; i++) {
+                for (int j = sum; j >= nums[i]; j--) {
+                    dp[j] = dp[j] + dp[j-nums[i]];
                 }
-                return;
             }
-
-
-                target = target - nums[index];
-                backtrack(nums, target, index+1);
-                target = target + nums[index];
-
-                target = target + nums[index];
-                backtrack(nums, target, index+1);
-                target = target - nums[index];
-
-
+            return dp[sum];
         }
 
 

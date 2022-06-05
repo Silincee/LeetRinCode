@@ -42,7 +42,7 @@ package leetcode.editor.cn;
 
 //平衡二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P110_BalancedBinaryTree{
 	 public static void main(String[] args) {

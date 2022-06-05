@@ -35,9 +35,7 @@ package leetcode.editor.cn;
 
 //删除排序链表中的重复元素 II
 
-import leetcode.editor.cn.utils.ListNode;
-
-import java.util.List;
+import leetcode.editor.cn.domain.ListNode;
 
 public class P82_RemoveDuplicatesFromSortedListIi{
 	 public static void main(String[] args) {

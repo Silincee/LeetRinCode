@@ -30,7 +30,7 @@ package leetcode.editor.cn;
 
 //二叉树的深度
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.LinkedList;
 

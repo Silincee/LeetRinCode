@@ -56,52 +56,44 @@ package leetcode.editor.cn;
 
 //零钱兑换
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 public class P322_CoinChange {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P322_CoinChange().new Solution();
-		int i = solution.coinChange(new int[]{1}, 2);
-		System.out.println(i);
-	}
+        int i = solution.coinChange(new int[]{1}, 2);
+        System.out.println(i);
+    }
 
     //力扣代码
-    //leetcode submit region begin(Prohibit modification and deletion)
+//leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
-        // 伪代码框架
+
         public int coinChange(int[] coins, int amount) {
 
-        	// 定义dp数组
-			int[] dp  = new int[amount+1];
-			// 初始化为最大值
-			for (int i = 0; i <= amount ; i++) {
-				dp[i] = amount+1;
-			}
+            // dp[j]：凑足总额为j所需钱币的最少个数为dp[j]
+            int[] dp = new int[amount + 1];
+            // 考虑到递推公式的特性，dp[j]必须初始化为一个最大的数，否则就会在min(dp[j - coins[i]] + 1, dp[j])比较的过程中被初始值覆盖。
+            for (int j = 0; j <= amount; j++) {
+                dp[j] = Integer.MAX_VALUE;
+            }
 
-			// 明确base case
-			dp[0]=0;
+            // base case：首先凑足总金额为0所需钱币的个数一定是0，那么dp[0] = 0
+            dp[0] = 0;
 
-			// 明确状态转移/选择
-			// 遍历更新所有状态
-			for (int i = 0; i < dp.length; i++) {
-				// 取三种情况的最小值
-				for (int coin : coins) {
-					// 小于0 无解情况
-					if (i-coin<0) continue;
-					dp[i] = Math.min(dp[i],1+dp[i-coin]);
-				}
+            for (int i = 0; i < coins.length; i++) {
+                for (int j = coins[i]; j <= amount; j++) {
+                    if (dp[j - coins[i]] != Integer.MAX_VALUE) {
+                        dp[j] = Math.min(dp[j], dp[j- coins[i]]  + 1);
+                    }
+                }
 
-			}
-
-			return (dp[amount]==amount+1)?-1:dp[amount];
-
+            }
+			return dp[amount] == Integer.MAX_VALUE?-1:dp[amount];
         }
-
-
     }
+
+
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

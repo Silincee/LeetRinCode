@@ -63,11 +63,7 @@ package leetcode.editor.cn;
 
 //打开转盘锁
 
-import leetcode.editor.cn.utils.TreeNode;
-
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Set;
 
 public class P752_OpenTheLock{
 	 public static void main(String[] args) {

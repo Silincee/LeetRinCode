@@ -53,11 +53,10 @@ package leetcode.editor.cn;
 
 //二叉树的序列化与反序列化
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class P297_SerializeAndDeserializeBinaryTree{

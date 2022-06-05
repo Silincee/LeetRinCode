@@ -48,7 +48,7 @@ package leetcode.editor.cn;
 
 //平衡二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class PingHengErChaShuLcof{
 	 public static void main(String[] args) {

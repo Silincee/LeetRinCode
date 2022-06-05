@@ -43,7 +43,7 @@ package leetcode.editor.cn;
 
 //对称的二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class DuiChengDeErChaShuLcof {
     public static void main(String[] args) {

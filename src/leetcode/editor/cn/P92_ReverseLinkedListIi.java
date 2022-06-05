@@ -38,7 +38,7 @@ package leetcode.editor.cn;
 
 //反转链表 II
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 public class P92_ReverseLinkedListIi{
 	 public static void main(String[] args) {

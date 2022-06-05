@@ -15,7 +15,7 @@ package leetcode.editor.cn;
 
 //反转链表
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 public class P206_ReverseLinkedList{
 	 public static void main(String[] args) {

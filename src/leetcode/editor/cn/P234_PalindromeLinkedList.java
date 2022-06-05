@@ -21,9 +21,7 @@ package leetcode.editor.cn;
 
 //回文链表
 
-import leetcode.editor.cn.utils.ListNode;
-
-import java.util.ArrayList;
+import leetcode.editor.cn.domain.ListNode;
 
 public class P234_PalindromeLinkedList{
 	 public static void main(String[] args) {

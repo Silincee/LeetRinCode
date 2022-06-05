@@ -34,7 +34,7 @@ package leetcode.editor.cn;
 
 //删除链表的节点
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 public class ShanChuLianBiaoDeJieDianLcof{
 	 public static void main(String[] args) {

@@ -36,9 +36,7 @@ package leetcode.editor.cn;
 
 //二叉树的最小深度
 
-import leetcode.editor.cn.utils.TreeNode;
-
-import java.util.LinkedList;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P111_MinimumDepthOfBinaryTree {
     public static void main(String[] args) {
@@ -65,26 +63,8 @@ public class P111_MinimumDepthOfBinaryTree {
      */
     class Solution {
         public int minDepth(TreeNode root) {
-            if (root == null) return 0;
-            LinkedList<TreeNode> queue = new LinkedList<>();
-            queue.offer(root);
-            // root 本身就是一层，depth 初始化为1
-            int depth = 1;
 
-            while (!queue.isEmpty()) {
-                int size = queue.size();
-                // 将当前队列中的所有节点向四周扩散
-                for (int i = 0; i < size; i++) {
-                    TreeNode cur = queue.poll();
-                    // 判断是否达到终点
-                    if (cur.left == null && cur.right == null) return depth;
-                    if (cur.left != null) queue.offer(cur.left);
-                    if (cur.right != null) queue.offer(cur.right);
-                }
-                // 增加步数
-                depth++;
-            }
-            return depth;
+            return  1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

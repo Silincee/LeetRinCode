@@ -39,9 +39,7 @@ package leetcode.editor.cn;
 
 //最大二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
-
-import javax.swing.*;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P654_MaximumBinaryTree {
     public static void main(String[] args) {

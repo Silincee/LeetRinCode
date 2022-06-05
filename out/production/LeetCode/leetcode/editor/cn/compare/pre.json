@@ -1,0 +1,356 @@
+{
+  "api": "mwp.prada.actorNotificationInfo",
+  "v": "1",
+  "ret": "SUCCESS",
+  "data": {
+    "total": 30,
+    "list": [
+      {
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1eto0",
+        "isRead": false,
+        "msgId": "1eto0",
+        "type": 1,
+        "time": 1597680001,
+        "autoLiveTopId": 166040,
+        "autoLiveTop": {
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": "",
+          "pv": 0,
+          "value": 0,
+          "status": 4,
+          "startTime": 1598198744,
+          "endTime": 1598198809
+        },
+        "title": "livetest0002: 你有新的置顶资源位，点击查看"
+      },
+      {
+        "autoLiveTopId": 166035,
+        "autoLiveTop": {
+          "pv": 0,
+          "value": 0,
+          "status": 4,
+          "startTime": 1598198687,
+          "endTime": 1598198699,
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": ""
+        },
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1etnu",
+        "isRead": false,
+        "msgId": "1etnu",
+        "type": 1,
+        "time": 1597680001
+      },
+      {
+        "autoLiveTopId": 166030,
+        "autoLiveTop": {
+          "status": 4,
+          "startTime": 1598198400,
+          "endTime": 1598198401,
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": "",
+          "pv": 0,
+          "value": 0
+        },
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1etnq",
+        "isRead": false,
+        "msgId": "1etnq",
+        "type": 1,
+        "time": 1597680001
+      },
+      {
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1eseu",
+        "isRead": true,
+        "msgId": "1eseu",
+        "type": 1,
+        "time": 1597633980,
+        "autoLiveTopId": 166055,
+        "autoLiveTop": {
+          "position": "",
+          "pv": 0,
+          "value": 0,
+          "status": 4,
+          "startTime": 1597852920,
+          "endTime": 1597852980,
+          "source": "竖滑 购物台 \n直播Tab"
+        },
+        "title": "livetest0002: 你有新的置顶资源位，点击查看"
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1eses",
+        "isRead": true,
+        "msgId": "1eses",
+        "type": 1,
+        "time": 1597633920,
+        "autoLiveTopId": 166050,
+        "autoLiveTop": {
+          "status": 4,
+          "startTime": 1597852876,
+          "endTime": 1597852885,
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": "",
+          "pv": 0,
+          "value": 0
+        }
+      },
+      {
+        "time": 1597633860,
+        "autoLiveTopId": 166045,
+        "autoLiveTop": {
+          "endTime": 1597852852,
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": "",
+          "pv": 0,
+          "value": 0,
+          "status": 4,
+          "startTime": 1597852810
+        },
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1eseq",
+        "isRead": true,
+        "msgId": "1eseq",
+        "type": 1
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1ea5e",
+        "isRead": false,
+        "msgId": "1ea5e",
+        "type": 1,
+        "time": 1596795781,
+        "autoLiveTopId": 164030,
+        "autoLiveTop": {
+          "startTime": 1596816000,
+          "endTime": 1596819600,
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": "",
+          "pv": 0,
+          "value": 0,
+          "status": 4
+        }
+      },
+      {
+        "type": 1,
+        "time": 1596764401,
+        "autoLiveTopId": 163888,
+        "autoLiveTop": {
+          "pv": 0,
+          "value": 0,
+          "status": 4,
+          "startTime": 1596767955,
+          "endTime": 1596768081,
+          "source": "竖滑 购物台 \n直播Tab",
+          "position": ""
+        },
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1e91e",
+        "isRead": false,
+        "msgId": "1e91e"
+      },
+      {
+        "isRead": true,
+        "msgId": "1df9q",
+        "type": 1,
+        "time": 1595469840,
+        "autoLiveTopId": 160258,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1df9q"
+      },
+      {
+        "autoLiveTopId": 160274,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dfcw",
+        "isRead": true,
+        "msgId": "1dfcw",
+        "type": 1,
+        "time": 1595471520
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dfcy",
+        "isRead": true,
+        "msgId": "1dfcy",
+        "type": 1,
+        "time": 1595471520,
+        "autoLiveTopId": 160269
+      },
+      {
+        "autoLiveTopId": 0,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dfg0",
+        "isRead": false,
+        "msgId": "1dfg0",
+        "type": 1,
+        "time": 1595473140
+      },
+      {
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dfji",
+        "isRead": false,
+        "msgId": "1dfji",
+        "type": 1,
+        "time": 1595476740,
+        "autoLiveTopId": 0,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看"
+      },
+      {
+        "msgId": "1dfl4",
+        "type": 1,
+        "time": 1595478540,
+        "autoLiveTopId": 0,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dfl4",
+        "isRead": false
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dg9o",
+        "isRead": true,
+        "msgId": "1dg9o",
+        "type": 1,
+        "time": 1595495400,
+        "autoLiveTopId": 160436
+      },
+      {
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dg9q",
+        "isRead": true,
+        "msgId": "1dg9q",
+        "type": 1,
+        "time": 1595495520,
+        "autoLiveTopId": 160441,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看"
+      },
+      {
+        "time": 1595496960,
+        "autoLiveTopId": 160451,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dgbm",
+        "isRead": true,
+        "msgId": "1dgbm",
+        "type": 1
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dgbs",
+        "isRead": true,
+        "msgId": "1dgbs",
+        "type": 1,
+        "time": 1595497020,
+        "autoLiveTopId": 160456
+      },
+      {
+        "type": 1,
+        "time": 1595497020,
+        "autoLiveTopId": 160461,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dgbu",
+        "isRead": true,
+        "msgId": "1dgbu"
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dgkq",
+        "isRead": false,
+        "msgId": "1dgkq",
+        "type": 1,
+        "time": 1595501940,
+        "autoLiveTopId": 0
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dgs6",
+        "isRead": false,
+        "msgId": "1dgs6",
+        "type": 1,
+        "time": 1595505540,
+        "autoLiveTopId": 0
+      },
+      {
+        "msgId": "1dgto",
+        "type": 1,
+        "time": 1595506200,
+        "autoLiveTopId": 0,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dgto",
+        "isRead": false
+      },
+      {
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dguu",
+        "isRead": false,
+        "msgId": "1dguu",
+        "type": 1,
+        "time": 1595506800,
+        "autoLiveTopId": 0,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看"
+      },
+      {
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dh0i",
+        "isRead": true,
+        "msgId": "1dh0i",
+        "type": 1,
+        "time": 1595511240,
+        "autoLiveTopId": 160556,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看"
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dh3w",
+        "isRead": false,
+        "msgId": "1dh3w",
+        "type": 1,
+        "time": 1595514000,
+        "autoLiveTopId": 160581
+      },
+      {
+        "autoLiveTopId": 160593,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dh6s",
+        "isRead": false,
+        "msgId": "1dh6s",
+        "type": 1,
+        "time": 1595518861
+      },
+      {
+        "isRead": false,
+        "msgId": "1dh6u",
+        "type": 1,
+        "time": 1595518920,
+        "autoLiveTopId": 160598,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dh6u"
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dh6w",
+        "isRead": false,
+        "msgId": "1dh6w",
+        "type": 1,
+        "time": 1595518980,
+        "autoLiveTopId": 160603
+      },
+      {
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1dok8",
+        "isRead": false,
+        "msgId": "1dok8",
+        "type": 1,
+        "time": 1595860260,
+        "autoLiveTopId": 161505
+      },
+      {
+        "type": 1,
+        "time": 1595861940,
+        "autoLiveTopId": 0,
+        "title": "livetest0002: 你有新的置顶资源位，点击查看",
+        "url": "//h5.mogu.com/static-live-main/hostcenter-notice.html?msgId=1domi",
+        "isRead": true,
+        "msgId": "1domi"
+      }
+    ],
+    "protocol": "《蘑菇街流量扶持规则》（下称“本规则”）是由杭州卷瓜网络有限公司及其关联方（下称“蘑菇街”或“我们”）与您（或称“主播”）就蘑菇街向您提供流量扶持所应遵循的基本规则。请仔细阅读并认真理解本规则，若您不理解或不同意本规则，请不要接受蘑菇街的流量扶持。\n    1、流量扶持是指蘑菇街为帮助主播增加其直播间的热度和粉丝量，进而促进直播间商品的成交，在自然流量之外提供给主播的额外的流量资源支持，主播可以选择接受或者拒绝。\n    2、蘑菇街通过以下渠道给予直播流量扶持：（1）直播tab（2）购物台（3）竖滑，其中直播tab 和购物台合称为直播列表，三个渠道分别展示如下图：\n    直播tab:\n    \n    直播购物台：\n    \n    竖滑:\n    \n    3、蘑菇街通过流量包、兜底位等形式给予主播流量扶持。\n    4、流量包，是在主播直播间自然流量之外，蘑菇街额外给予主播的以曝光PV方式计算的相应流量。例如一个流量包，可能包含直播tab 4w的曝光PV和竖滑1.3w的曝光PV。\n    5、兜底位，是指蘑菇街给予一定的流量扶持后，主播的直播间在直播tab、购物台、竖滑中的位置排名不低于相应的值，如兜底3即位置排名不低于第3位。\n    6、直播列表曝光PV，是指直播tab或购物台的直播间，给一个用户曝光1次记为1个曝光PV。\n    7、竖滑曝光PV，是由竖滑进房PV和一定的CTR折算后的竖滑系数相乘而计算出的曝光PV，具体以蘑菇街页面显示的值为准。竖滑进房PV是指用户通过任何渠道进入直播间后，用户向上或向下滑动1次记为1个竖滑PV。\n    8、总曝光PV，是指直播列表曝光PV与竖滑曝光PV的总和，具体计算方式为：总曝光PV= (购物台+直播tab)曝光PV+竖滑进房PV*竖滑系数。\n    9、“流量扶持”产品页面显示的“价值”是指蘑菇街当次提供给主播的流量乘以蘑菇街流量对外销售价格所换算出的金钱价值，具体计算公式为：流量价值=总曝光PV*ECPM/1000。ECPM是指每千次曝光PV的价格，ECPM值根据不同时间段有所不同，例如黄金时间段的ECPM值比其他时间段高，具体以蘑菇街平台对外展示流量价值为准。\n    10、一旦您接受蘑菇街的流量扶持，视为您已知悉并同意本规则，特别是相应流量扶持所对应的流量价值，且“流量扶持”产品页面显示的价值即视为蘑菇街为培养主播而投入的成本。",
+    "popup": 1,
+    "apiInfo": "应用:prada,接口:actorNotificationInfoV1,环境:pre,用户:149526071"
+  },
+  "needHeaderCookie": false
+}

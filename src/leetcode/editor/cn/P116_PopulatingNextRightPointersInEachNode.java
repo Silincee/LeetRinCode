@@ -50,8 +50,7 @@ package leetcode.editor.cn;
 //填充每个节点的下一个右侧节点指针
 
 
-import leetcode.editor.cn.utils.Node;
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.Node;
 
 public class P116_PopulatingNextRightPointersInEachNode{
 	 public static void main(String[] args) {

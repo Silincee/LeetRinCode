@@ -57,7 +57,7 @@ package leetcode.editor.cn;
 
 //二叉树的中序遍历
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

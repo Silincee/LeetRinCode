@@ -18,9 +18,7 @@ package leetcode.editor.cn;
 
 //合并两个排序的链表
 
-import leetcode.editor.cn.utils.ListNode;
-
-import java.util.List;
+import leetcode.editor.cn.domain.ListNode;
 
 public class HeBingLiangGePaiXuDeLianBiaoLcof{
 	 public static void main(String[] args) {

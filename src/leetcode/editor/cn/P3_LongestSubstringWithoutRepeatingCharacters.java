@@ -56,39 +56,41 @@ public class P3_LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P3_LongestSubstringWithoutRepeatingCharacters().new Solution();
+        System.out.println(solution.lengthOfLongestSubstring("ababc"));
     }
 
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int lengthOfLongestSubstring(String s){
+            if (s.length()==0) return 0;
 
             char[] array = s.toCharArray();
-            HashMap<Character, Integer> window = new HashMap<>();
-            for (char c : array) {
-                window.put(c,0);
-            }
-
             int left = 0;
             int right = 0;
-            int res = 0;
 
-            while (right<array.length){
-                char c = array[right];
-                window.put(c,window.get(c)+1);
+            HashMap<Character, Integer> window = new HashMap<>();
+            int res = Integer.MIN_VALUE;
+
+            while (right<s.length()){
+                // 扩大窗口
+                Character c = array[right];
+                window.put(c,window.getOrDefault(c,0)+1);
                 right++;
 
+                // 缩小窗口
                 while (window.get(c)>1){
-                    char d = array[left];
-                    left++;
+                    Character d = array[left];
                     window.put(d,window.get(d)-1);
+                    left++;
                 }
 
-                res = Math.max(res,right-left);
-
+                if (right-left>res){
+                    res = right-left;
+                }
             }
-            return res;
 
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -36,27 +36,23 @@ public class P167_TwoSumIiInputArrayIsSorted {
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+    	// numbers = [2, 7, 11, 15], target = 9   输出: [1,2]
         public int[] twoSum(int[] numbers, int target) {
+			int left = 0;
+			int right = numbers.length-1;
 
-			for (int i = 0; i < numbers.length; i++) {
-				int left = i;
-				int right = numbers.length;
-
-				while (left+1!=right){
-					int m  = (right-left)/2+left;
-					if (numbers[m]<target-numbers[i]){
-						left = m;
-					}else {
-						right = m;
-					}
+			while (left<=right){
+				if (numbers[left]+numbers[right]==target) return new int[]{left+1,right+1};
+				while (numbers[left]+numbers[right]>target){
+					right--;
+				}
+				while (numbers[left]+numbers[right]<target){
+					left++;
 				}
 
-				if (right==numbers.length||numbers[right]!=target-numbers[i]){
-					continue;
-				}
-				return new int[]{i+1,right+1};
 			}
-				return new int[]{-1,-1};
+
+			return new int[]{-1,-1};
         }
 
 

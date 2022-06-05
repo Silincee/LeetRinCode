@@ -16,7 +16,7 @@ package leetcode.editor.cn;
 
 //链表中倒数第k个节点
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 public class LianBiaoZhongDaoShuDiKgeJieDianLcof{
 	 public static void main(String[] args) {

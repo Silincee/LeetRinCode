@@ -20,7 +20,7 @@ package leetcode.editor.cn;
 
 //从尾到头打印链表
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

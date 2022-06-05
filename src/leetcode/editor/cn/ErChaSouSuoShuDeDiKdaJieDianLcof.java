@@ -37,7 +37,7 @@ package leetcode.editor.cn;
 
 //二叉搜索树的第k大节点
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class ErChaSouSuoShuDeDiKdaJieDianLcof {
     public static void main(String[] args) {

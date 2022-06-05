@@ -25,7 +25,7 @@ package leetcode.editor.cn;
 
 //二叉树的直径
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P543_DiameterOfBinaryTree{
 	 public static void main(String[] args) {

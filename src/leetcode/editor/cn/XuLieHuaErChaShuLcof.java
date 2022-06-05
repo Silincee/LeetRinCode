@@ -22,7 +22,7 @@ package leetcode.editor.cn;
 
 //序列化二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -40,7 +40,7 @@ package leetcode.editor.cn;
 
 //合并两个有序链表
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 public class P21_MergeTwoSortedLists{
 	 public static void main(String[] args) {

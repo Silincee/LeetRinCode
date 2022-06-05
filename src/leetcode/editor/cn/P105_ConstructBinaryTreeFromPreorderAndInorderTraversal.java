@@ -23,7 +23,7 @@ package leetcode.editor.cn;
 
 //从前序与中序遍历序列构造二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P105_ConstructBinaryTreeFromPreorderAndInorderTraversal{
 	 public static void main(String[] args) {

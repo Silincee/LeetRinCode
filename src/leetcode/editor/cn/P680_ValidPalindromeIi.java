@@ -32,37 +32,35 @@ public class P680_ValidPalindromeIi {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P680_ValidPalindromeIi().new Solution();
-        solution.validPalindrome("abceba");
+        System.out.println(solution.validPalindrome("abac"));
     }
 
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean validPalindrome(String s) {
-            // 最多删除一个字符
-            // 在遇到不同的时候,移除一个元素（左/右）
-            int i = 0;
-            int j = s.length()-1;
-            while(i<j){
-                if (s.charAt(i)!=s.charAt(j)){
-                    return isStr(s,i,j-1)||isStr(s,i+1,j);
-                }
-                i++;
-                j--;
+            char[] array = s.toCharArray();
+            int left = 0;
+            int right = array.length-1;
+
+            while (array[left]==array[right]){
+                if (left>=right) return true;
+                left++;
+                right--;
             }
-            return true;
+
+            return isValid(array,left+1,right)||isValid(array,left,right-1);
         }
-        // 判断是否是回文字符串
-        public boolean isStr(String str,int i,int j){
-            while(i<j){
-                if (str.charAt(i)!=str.charAt(j)){
-                    return false;
-                }
-                i++;
-                j--;
+
+        private boolean isValid(char[] array, int left, int right) {
+            while (array[left]==array[right]){
+                if (left>=right) return true;
+                left++;
+                right--;
             }
-            return true;
+            return false;
         }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 

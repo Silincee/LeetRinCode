@@ -30,7 +30,7 @@ package leetcode.editor.cn;
 
 //翻转二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P226_InvertBinaryTree{
 	 public static void main(String[] args) {

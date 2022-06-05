@@ -41,7 +41,7 @@ package leetcode.editor.cn;
 
 //二叉搜索树的最近公共祖先
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class ErChaSouSuoShuDeZuiJinGongGongZuXianLcof{
 	 public static void main(String[] args) {

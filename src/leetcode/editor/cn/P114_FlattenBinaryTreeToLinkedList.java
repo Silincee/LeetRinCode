@@ -31,7 +31,7 @@ package leetcode.editor.cn;
 
 //二叉树展开为链表
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P114_FlattenBinaryTreeToLinkedList{
 	 public static void main(String[] args) {

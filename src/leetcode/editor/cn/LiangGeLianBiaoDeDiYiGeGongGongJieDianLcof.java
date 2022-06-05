@@ -65,7 +65,7 @@ package leetcode.editor.cn;
 
 //两个链表的第一个公共节点
 
-import leetcode.editor.cn.utils.ListNode;
+import leetcode.editor.cn.domain.ListNode;
 
 public class LiangGeLianBiaoDeDiYiGeGongGongJieDianLcof{
 	 public static void main(String[] args) {

@@ -53,62 +53,51 @@ public class P438_FindAllAnagramsInAString {
     public static void main(String[] args) {
         //测试代码
         Solution solution = new P438_FindAllAnagramsInAString().new Solution();
+        System.out.println(solution.findAnagrams("cbaebabacd", "abc").toString());
     }
 
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<Integer> findAnagrams(String s, String p) {
+            char[] sArray = s.toCharArray();
+            char[] pArray = p.toCharArray();
 
-            // 结果列表
-            ArrayList<Integer> result = new ArrayList<>();
-
-            // need window hashMap
-            // 初始化need
             HashMap<Character, Integer> need = new HashMap<>();
             HashMap<Character, Integer> window = new HashMap<>();
-            for (char key : p.toCharArray()) {
-                need.put(key, need.getOrDefault(key, 0) + 1);
+            for (char c : pArray) {
+                need.put(c,need.getOrDefault(c,0)+1);
             }
 
-            // 窗口指针 统计参数valid
-            int left = 0;
-            int right = 0;
-            int valid = 0;
+            int left = 0; int right = 0;
+            int count = 0;
+            List<Integer> res = new ArrayList<>();
 
-            // 开始滑动
-            char[] sArray = s.toCharArray();
-            while (right < s.length()) {
-                // right 增加
+            while (right<s.length()){
                 Character c = sArray[right];
+                window.put(c,window.getOrDefault(c,0)+1);
+                if (window.get(c).equals(need.get(c))){
+                    count++;
+                }
                 right++;
-                if (need.containsKey(c)) {
-                    window.put(c, window.getOrDefault(c, 0) + 1);
-                    if (window.get(c).equals(need.get(c))) {
-                        valid++;
-                    }
-                }
 
-                // left++ 收缩条件？窗口大小>=p.length()
-                while ((right - left) >= p.length()) {
-                    // 处理逻辑
-                    if (valid == need.size()) {
-                        result.add(left);
-                    }
-
-                    // 更新参数
+                while (right-left>p.length()){
                     Character d = sArray[left];
-                    left++;
-                    if (need.containsKey(d)) {
-                        if (window.get(d).equals(need.get(d))) {
-                            valid--;
-                        }
-                        window.put(d, window.get(d) - 1);
+                    if (window.get(d).equals(need.get(d))){
+                        count--;
                     }
+                    window.put(d,window.get(d)-1);
+                    left++;
                 }
 
+                // 后处理
+                if (count==need.keySet().size()){
+                    res.add(left);
+                }
             }
-            return result;
+
+            return res;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

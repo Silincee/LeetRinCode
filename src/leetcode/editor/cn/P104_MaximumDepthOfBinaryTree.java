@@ -23,10 +23,7 @@ package leetcode.editor.cn;
 //二叉树的最大深度
 
 
-import leetcode.editor.cn.utils.TreeNode;
-
-import java.util.LinkedList;
-import java.util.Queue;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class P104_MaximumDepthOfBinaryTree {
     public static void main(String[] args) {

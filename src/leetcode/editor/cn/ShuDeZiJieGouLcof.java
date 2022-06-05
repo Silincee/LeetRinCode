@@ -39,7 +39,7 @@ package leetcode.editor.cn;
 
 //树的子结构
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 public class ShuDeZiJieGouLcof {
     public static void main(String[] args) {

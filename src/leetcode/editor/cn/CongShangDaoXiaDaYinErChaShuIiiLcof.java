@@ -36,7 +36,7 @@ package leetcode.editor.cn;
 
 //从上到下打印二叉树 III
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

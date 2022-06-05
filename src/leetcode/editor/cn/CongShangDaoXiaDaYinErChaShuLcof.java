@@ -32,10 +32,9 @@ package leetcode.editor.cn;
 
 //从上到下打印二叉树
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 
 public class CongShangDaoXiaDaYinErChaShuLcof{

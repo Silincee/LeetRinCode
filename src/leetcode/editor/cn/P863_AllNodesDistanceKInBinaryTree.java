@@ -39,7 +39,7 @@ package leetcode.editor.cn;
 
 //二叉树中所有距离为 K 的结点
 
-import leetcode.editor.cn.utils.TreeNode;
+import leetcode.editor.cn.domain.TreeNode;
 
 import java.util.List;
 
